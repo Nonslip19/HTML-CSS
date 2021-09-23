@@ -14,7 +14,7 @@
 
         <div>
             <label for="ad">isim:</label>
-            <input type="text" name="İsim" id="ad" placeholder="lütfen adınızı giriniz" required>
+            <input type="text" name="İsim" id="ad" placeholder="lütfen adınızı giriniz">
             <br><br>
             <!-- requared sayesinde o alanı doldurmak zorundayız doldurulmasa tarayıcı uyarı verecektir -->
             <label for="soyad">soyad:</label>
@@ -110,18 +110,37 @@
         <div>
             <label for="yorum">Yorum lütfen</label> <br>
             <textarea name="yorumunuz" id="yorum" cols="30" rows="10"></textarea>
-        </div>
+        </div><br>
         <div>
-
+            <label for="mybrowser">Browsers:</label>
+            <input type="text" list="browser" id="mybrowser" name="options">
+            <datalist id="browser">
+                <option value="Firefox"></option>
+                <option value="Chome"></option>
+                <option value="Safari"></option>
+                <option value="Opera"></option>
+                <option value="IE"></option>
+            </datalist>
+        </div> <br>
+        <div>
+            <label for="cars">Choose a car : </label>
+            <br />
+            <select name="cars" id="cars" multiple size="3" required>
+            <option value="Porche">Porche</option>
+            <option value="Masserati" selected>Masserati</option>
+            <option value="BMW">BMW</option>
+            <option value="Tesla">Tesla</option>
+            </select>
         </div>
-            
+
+
 
         <br><br><br><br>
         <input type="reset" value="sıfırla">
         <input type="submit" value="Send">
 
-    </form>
+    </form> 
 
-</body>
+</body> 
 
 </html>

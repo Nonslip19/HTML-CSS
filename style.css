@@ -1,0 +1,32 @@
+#box1 {
+    color: blue;
+    border-style: solid;
+    border-width: 5px;
+    border-color: orangered;
+}
+#box2 {
+    color: rgb(0, 0, 255);
+    border: 5px solid turquoise;
+}
+#box3 {
+    color: #0000FF; 
+    border-top: 10px dotted blue;
+    border-right: 5px solid red;
+    border-bottom: 3px groove orange;
+    border-left: 15px inset cyan;
+}
+#box4 {
+    color: rgba(0, 0,255, 0.5);
+    border-style: solid dotted groove;
+    border-width: 5px 20px  10px;
+    border-color: orangered cyan black;
+}
+#box5 {
+    color: green;
+    border: dotted 9px purple;
+}
+#box6 {
+    color: hsla(240, 100%, 50%, 0.3);
+    border: 15px solid darkblue;
+    border-radius: 10px;
+}
