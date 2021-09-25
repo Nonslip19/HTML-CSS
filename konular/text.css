@@ -1,0 +1,40 @@
+#part1{
+    color: blue;
+    text-align: center;
+    text-transform: uppercase;
+    column-count: 3; /* metni 3 kolona böler */
+    column-rule: 3px solid blue;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#part2{
+    color:red;
+    text-align: right;
+    text-transform: lowercase;
+    text-decoration: line-through;
+    text-shadow:5px 5px 2px blue;/* x ekseni, y ekseni, flulaştırır. */
+}
+#part3{
+    color: #00ff00;
+    text-align: justify;
+    text-decoration: overline wavy;
+}
+#part4{
+    color: rgb(120, 155, 140);
+    text-decoration: overline;
+    text-transform: capitalize;
+    text-indent: 20px;
+    letter-spacing: 3px; /* harflerin arasını açar. Eksi yazarsan kapatır */
+    line-height: 20px; /* satırların arasını açar.*/
+    font-family: 'Birthstone', cursive;
+    font-weight: bolder;
+}
+#part5{
+    color: blueviolet;
+    text-decoration: underline;
+    text-indent: 50px; /* satır başı için */
+    direction: rtl; /* metni tersten düzenler. anlamlı olması için arapça gibi bir dilde kullanılması lazım. */
+    unicode-bidi: bidi-override; /* herşeyi tam tersi olarak yazar. */
+    word-spacing: 5px;
+    letter-spacing: 3px;
+    font-variant:small-caps; /* tüm harfleri büyütür. t */
+}
