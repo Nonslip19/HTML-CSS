@@ -1,0 +1,34 @@
+#main{
+    background-color: chartreuse;
+    width: 100%;
+    height: 1500px;
+    /* position: relative; */
+}
+#box1{
+    width: 100px;
+    height:100px;
+    background-color: blue;
+    position: relative;
+    z-index: 3;
+}
+#box2{
+    width: 100px;
+    height:100px;
+    background-color: fuchsia;
+    border-radius: 20px;
+    /* position: absolute; parent' inde yani # mainde position relative olursa box2 2 mainin içinde şekillenecek verilmezse body ye göre şekillenecek. yani main in dışına dahi çıkabilir. */
+    /* position: absolute; */
+    position: relative;
+    bottom: 15px;
+    z-index: 2; /* z elementi verilirken position verilmesi gerekir mutlaka yoksa z index çalışmaz. */
+}
+#box3{
+    width: 100px;
+    height:100px;
+    top: 0px;
+    /* border-radius: 30px; */
+    background-color:teal;
+    position: relative;
+ /*     position: sticky; */
+    z-index: 1;
+}

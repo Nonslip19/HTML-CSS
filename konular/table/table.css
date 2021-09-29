@@ -1,0 +1,24 @@
+table, th, td{
+    border: 1px solid red;
+    background-image: url(picsum bla bla */) ;
+   /*  border-collapse:collapse; */
+}
+table{
+    width: 100%;
+}
+th{
+    height: 25px;
+}
+td{
+    text-align: center;
+    height: 35px;
+    vertical-align: middle;
+    padding: 15px;
+}
+td:hover{
+    background-color: lightpink;
+}
+
+tr:nth-child(even){
+    background-color:gray ;
+} /* değişik kombinasyonlaı var. mesela eben yerine 3n yazarsan 3 seferde 1 grey yapar */

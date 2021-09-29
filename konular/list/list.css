@@ -1,0 +1,23 @@
+ol{
+    list-style-type: "\1F44D";
+}
+ul{
+    margin: 20px;
+    padding: 5px;
+}
+ul li{
+    border:1px solid red ;
+    color: blueviolet;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px; 
+    list-style-type: none; /* ol listesindeki bata bulunan default işareti kaldırıyor  */
+    background-color: lightgoldenrodyellow;
+    border-left: 15px solid black;
+}
+li:hover{
+    background-color: gray;
+}
+li::before{
+    content: "\2764";
+}
