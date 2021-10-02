@@ -1,0 +1,15 @@
+#container{
+   /*  overflow: auto; */
+    background-color: bisque;
+}
+
+img{
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
+p{
+    text-align: justify;
+    border: 2px solid red;
+   /*  clear: left; */
+}

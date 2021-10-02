@@ -1,0 +1,41 @@
+*{
+    border: 1px solid tomato;
+    border-radius: 10px;
+    text-align: center;
+}
+header{
+    background-color: seagreen;
+    margin-bottom: 10px;
+}
+
+main{
+    background-color: skyblue;
+    padding:5px;
+    /* height: 320px; */
+    /* overflow: auto; */
+}
+aside{ 
+    background-color: darkorange;
+    width: 25%;
+    height: 300px;
+    float: left;
+}
+article{
+    background-color: greenyellow;
+    width: 70%;
+    height: 300px;
+    float: left;
+}
+footer{
+    background-color: coral;
+}
+.clear{
+    clear: both;
+    border: none;
+}
+
+/* #clearfix::after{
+    content: "Harvey";
+    clear: both;
+    display: block;
+} */

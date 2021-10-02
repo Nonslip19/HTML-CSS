@@ -1,0 +1,25 @@
+.box{
+    border: 5px solid black;
+    margin: 70px;
+    width: 300px;
+    height: 55px;
+}
+#first{
+    overflow: visible;
+}
+#second{
+    overflow: hidden;
+}
+#third{
+    overflow: scroll;
+}
+#fourth{
+    width: auto;
+    overflow: auto;
+}
+#fifth{
+    overflow:scroll;
+}
+#paragraf{
+    width: 500px;
+}

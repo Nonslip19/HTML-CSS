@@ -16,7 +16,7 @@
     height:100px;
     background-color: fuchsia;
     border-radius: 20px;
-    /* position: absolute; parent' inde yani # mainde position relative olursa box2 2 mainin içinde şekillenecek verilmezse body ye göre şekillenecek. yani main in dışına dahi çıkabilir. */
+    /* position: absolute; parent' inde yani # mainde position=relative olursa box2 2 mainin içinde şekillenecek verilmezse body ye göre şekillenecek. yani main in dışına dahi çıkabilir. */
     /* position: absolute; */
     position: relative;
     bottom: 15px;
