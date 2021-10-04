@@ -1,0 +1,60 @@
+body{
+    background-color: #eee;
+   /*  box-sizing: border-box; */
+}
+
+#main-content{
+    background-color: cyan;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    padding: 2%;
+}
+
+.auto-width{ 
+    width: auto;
+    height: auto;
+    background-color: yellow;
+}
+
+.lengt-width{
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+    margin-bottom: 10px;
+}
+
+.percentga-width{
+    width: 70%;
+    height: 10%;
+    background-color: chocolate;
+    margin-bottom: 10px;
+}
+
+.initial-width{
+    width: initial;
+    height: initial;
+    background-color: bisque;
+    margin-bottom: 10px;
+}
+
+.inherit-width{
+    width: inherit;
+    height: inherit;
+    background-color: chartreuse;
+}
+
+/* inherit parent in değerini alır. */
+
+.max-width{
+    max-width: 400px;
+    max-height: 200px;
+    background-color: coral;
+    margin-bottom: 10px;
+}
+
+#min-width{
+    min-width: 200px;
+    min-height: 20px;
+    background-color: darkgray;
+}

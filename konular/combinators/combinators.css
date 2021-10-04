@@ -1,0 +1,21 @@
+p{padding: 10px}
+
+p{
+    background-color: yellow;
+}
+
+div p{
+    background-color: hotpink;
+}
+
+div>p{ /* yukarıdakinden farkı divin içindeki tüm p leri değil bir alt child ı olan p lari alır. */
+    background-color: green;
+}
+
+div + p{  /* burada sadece divden sonra gelen ilk p yi alır. Dikkat divin içindeki değil divden sonra geleni alır. */
+    background-color: blue;
+}
+
+div ~ p {  /* burada divden sonra gelen tüm p leri alır. */
+    background-color: aqua;
+}
